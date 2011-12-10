@@ -27,7 +27,7 @@ def get_line_converter(to_time, lineno):
 
         duration = "%s --> %s" % (to_time(int(start)), to_time(int(end)))
 
-        return "%d\n%s\n%s\n\n" % (lineno.next(), duration, text)
+        return "%d\r\n%s\r\n%s\r\n\r\n" % (lineno.next(), duration, text)
     return convert
 
 def get_args():
@@ -56,4 +56,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
