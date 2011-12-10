@@ -1,3 +1,5 @@
-This script converts subtitle files from .sub to .srt.
+This script converts subtitle files from .sub to .srt. Run it with Python, check the sources for help.
 
-Run it with Python, check the sources for help.
+File format information:
+-http://en.wikipedia.org/wiki/SubRip#SubRip_text_file_format
+-http://en.wikipedia.org/wiki/MicroDVD#Format
